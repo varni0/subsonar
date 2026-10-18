@@ -70,7 +70,7 @@ Toolchain on the box: `/opt/tools/jdk-17.0.20.1+1`, `/opt/tools/android-sdk` (en
 ./gradlew bundleRelease            # signed AAB for Google Play
 ```
 
-Release signing reads `../subsonar-keystore/keystore.properties`, falling back to the pre-rename `../subpilot-keystore/keystore.properties` (same upload key; outside the repo, git-ignored). Override with `-PsubsonarKeystoreProps=/path`.
+Release signing reads `../subsonar-keystore/keystore.properties`, falling back to the legacy `../subpilot-keystore/keystore.properties` (retired key; outside the repo, git-ignored). Override with `-PsubsonarKeystoreProps=/path`.
 Without it, release builds are produced unsigned.
 
 ## Releasing an update

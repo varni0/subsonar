@@ -84,7 +84,7 @@ earnings (after enrolling in the 15% tier), 30% above that. Check Play's current
       An organisation account (needs a D-U-N-S number) skips this.
 - [x] Final name chosen: **Subsonar**, `applicationId` `app.subsonar` (set before the first upload; it can never change afterwards).
 - [ ] Quick trademark check for “Subsonar” (EUIPO/WIPO/Patentstyret) before launch.
-- [ ] Back up `/workspace/subpilot-keystore/` (the upload key; still valid after the rename, see README there). Enrol in Play App Signing when uploading.
+- [ ] Back up `/workspace/subsonar-keystore/` (the upload key, subject `CN=Subsonar, O=Subsonar`; see README there; backup zip at `/workspace/subsonar-keystore-BACKUP.zip`). Enrol in Play App Signing when uploading.
 - [ ] Host the privacy policy (`docs/PRIVACY_POLICY.md`) at a public URL — free options: GitHub Pages, Google Sites,
       a Notion public page. Fill in your contact email first.
 - [ ] Store listing (`docs/PLAY_STORE_LISTING.md`): title, short + full description, category **Finance**

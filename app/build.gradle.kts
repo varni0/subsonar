@@ -7,7 +7,7 @@ plugins {
 }
 
 // Release signing: credentials live OUTSIDE the repo. Lookup order: -PsubsonarKeystoreProps=/path/to/keystore.properties,
-// ../subsonar-keystore/keystore.properties, then the pre-rename ../subpilot-keystore/keystore.properties (same upload key).
+// ../subsonar-keystore/keystore.properties, then the legacy ../subpilot-keystore/keystore.properties (retired key; fallback only).
 val keystorePropsFile = listOfNotNull(
     (findProperty("subsonarKeystoreProps") ?: findProperty("subpilotKeystoreProps")) as String?,
     "../subsonar-keystore/keystore.properties",

@@ -44,7 +44,7 @@ Build with it:
 ```bash
 ./gradlew bundleRelease -PsubsonarKeystoreProps=/absolute/path/to/keystore.properties
 ```
-(By default the build looks for `../subsonar-keystore/keystore.properties`, then the pre-rename `../subpilot-keystore/keystore.properties`; the upload key did not change with the rename.)
+(By default the build looks for `../subsonar-keystore/keystore.properties`, then the legacy `../subpilot-keystore/keystore.properties` as a fallback only; that old key is retired and must not be used for Play uploads.)
 
 Outputs: `app/build/outputs/bundle/release/app-release.aab` (upload to Google Play) and `app/build/outputs/apk/release/app-release.apk`.
 
