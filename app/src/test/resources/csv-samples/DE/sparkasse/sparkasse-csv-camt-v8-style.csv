@@ -1,0 +1,4 @@
+"Auftragskonto";"Buchungstag";"Valutadatum";"Buchungstext";"Verwendungszweck";"Glaeubiger ID";"Mandatsreferenz";"Kundenreferenz (End-to-End)";"Sammlerreferenz";"Lastschrift Ursprungsbetrag";"Auslagenersatz Ruecklastschrift";"Beguenstigter/Zahlungspflichtiger";"Kontonummer/IBAN";"BIC (SWIFT-Code)";"Betrag";"Waehrung";"Info"
+"DE12500105170648489890";"02.06.26";"02.06.26";"FOLGELASTSCHRIFT";"Versicherungsbeitrag Juni";"DE31ZZZ00000012345";"MND-0815";"E2E-4711";"";"";"";"Allianz Versicherung";"DE44500105175407324931";"INGDDEFF";"-42,17";"EUR";"Umsatz gebucht"
+"DE12500105170648489890";"11.06.26";"11.06.26";"GUTSCHRIFT";"Erstattung Reisekosten für Mai";"";"";"E2E-4712";"";"";"";"Firma Beispiel GmbH";"DE02120300000000202051";"BYLADEM1001";"318,44";"EUR";"Umsatz gebucht"
+"DE12500105170648489890";"23.06.26";"24.06.26";"KARTENZAHLUNG";"Bäckerei Süß Filiale 12";"";"";"";"";"";"";"Bäckerei Süß";"DE89370400440532013000";"COBADEFF";"-7,80";"EUR";"Umsatz gebucht"

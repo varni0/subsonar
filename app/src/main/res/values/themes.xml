@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AppCompat parent: AppCompatActivity (needed for per-app language on Android < 13) requires it. The UI is Compose; no AppCompat widgets are used. -->
+    <style name="Theme.Subsonar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/splash_background</item>
+    </style>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App icon foreground: a bank statement with one recurring charge highlighted (cloudberry band).
+     Drawn inside the 66dp adaptive-icon safe zone. No text, so a rename does not touch the icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- soft shadow -->
+    <path android:fillColor="#33000000" android:pathData="M42,31h32a5,5 0 0 1 5,5v44a5,5 0 0 1 -5,5h-32a5,5 0 0 1 -5,-5v-44a5,5 0 0 1 5,-5z" />
+    <!-- statement sheet -->
+    <path android:fillColor="#F7F9FB" android:pathData="M40,28h28a5,5 0 0 1 5,5v44a5,5 0 0 1 -5,5h-28a5,5 0 0 1 -5,-5v-44a5,5 0 0 1 5,-5z" />
+    <!-- statement rows -->
+    <path android:strokeColor="#A7B8C2" android:strokeWidth="3.2" android:strokeLineCap="round" android:pathData="M42,38.5h17 M63,38.5h3" />
+    <path android:strokeColor="#A7B8C2" android:strokeWidth="3.2" android:strokeLineCap="round" android:pathData="M42,46.5h13 M62,46.5h4" />
+    <path android:strokeColor="#A7B8C2" android:strokeWidth="3.2" android:strokeLineCap="round" android:pathData="M42,66.5h15 M62,66.5h4" />
+    <path android:strokeColor="#A7B8C2" android:strokeWidth="3.2" android:strokeLineCap="round" android:pathData="M42,74.5h10" />
+    <!-- the highlighted recurring charge, wider than the sheet -->
+    <path android:fillColor="#F2A541" android:pathData="M31,51.5h46a5,5 0 0 1 5,5v0a5,5 0 0 1 -5,5h-46a5,5 0 0 1 -5,-5v0a5,5 0 0 1 5,-5z" />
+    <path android:fillColor="#1E5568" android:pathData="M37,56.5m-2.6,0a2.6,2.6 0 1,0 5.2,0a2.6,2.6 0 1,0 -5.2,0" />
+    <path android:strokeColor="#1E5568" android:strokeWidth="3" android:strokeLineCap="round" android:pathData="M44,56.5h15 M66,56.5h7" />
+</vector>

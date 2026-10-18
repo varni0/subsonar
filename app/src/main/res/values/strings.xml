@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Subsonar</string>
+
+    <!-- Navigation -->
+    <string name="tab_subscriptions">Subscriptions</string>
+    <string name="tab_insights">Insights</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- List -->
+    <string name="add_subscription">Add subscription</string>
+    <string name="empty_title">No subscriptions yet</string>
+    <string name="empty_body">Add Netflix, Spotify, your gym, phone plan, insurance… Subsonar reminds you before each one renews.</string>
+    <string name="monthly_total">Per month</string>
+    <string name="yearly_total">Per year</string>
+    <string name="renews_today">Renews today</string>
+    <string name="renews_tomorrow">Renews tomorrow</string>
+    <plurals name="renews_in_days">
+        <item quantity="one">Renews in %d day</item>
+        <item quantity="other">Renews in %d days</item>
+    </plurals>
+    <string name="enable_notifications_title">Turn on renewal reminders</string>
+    <string name="enable_notifications_body">Allow notifications so Subsonar can warn you before you get charged.</string>
+    <string name="allow">Allow</string>
+    <string name="not_now">Not now</string>
+
+    <!-- Edit -->
+    <string name="edit_subscription">Edit subscription</string>
+    <string name="new_subscription">New subscription</string>
+    <string name="field_name">Name</string>
+    <string name="field_price">Price</string>
+    <string name="field_currency">Currency</string>
+    <string name="field_cycle">Billing cycle</string>
+    <string name="field_next_renewal">Next renewal date</string>
+    <string name="field_category">Category</string>
+    <string name="field_notes">Notes (optional)</string>
+    <string name="field_reminders">Remind me before it renews</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+    <string name="delete_confirm_title">Delete subscription?</string>
+    <string name="delete_confirm_body">This removes “%1$s” and its reminders.</string>
+    <string name="error_name_required">Enter a name</string>
+    <string name="error_price_invalid">Enter a valid price</string>
+    <string name="error_currency_invalid">Use a 3-letter code like EUR, USD or NOK</string>
+    <string name="limit_reached">Free plan limit reached. Upgrade to add more.</string>
+
+    <!-- Cycles -->
+    <string name="cycle_weekly">Weekly</string>
+    <string name="cycle_monthly">Monthly</string>
+    <string name="cycle_quarterly">Quarterly</string>
+    <string name="cycle_yearly">Yearly</string>
+
+    <!-- Categories -->
+    <string name="cat_streaming">Streaming</string>
+    <string name="cat_music">Music</string>
+    <string name="cat_software">Software &amp; apps</string>
+    <string name="cat_cloud">Cloud storage</string>
+    <string name="cat_gaming">Gaming</string>
+    <string name="cat_news">News &amp; magazines</string>
+    <string name="cat_fitness">Fitness &amp; health</string>
+    <string name="cat_utilities">Utilities &amp; bills</string>
+    <string name="cat_phone_internet">Phone &amp; internet</string>
+    <string name="cat_insurance">Insurance</string>
+    <string name="cat_education">Education</string>
+    <string name="cat_other">Other</string>
+
+    <!-- Insights -->
+    <string name="insights_empty">Add a few subscriptions to see where your money goes.</string>
+    <string name="by_category">By category (per month)</string>
+    <string name="active_subscriptions">Active subscriptions</string>
+    <string name="next_30_days">Due in the next 30 days</string>
+    <string name="other_currencies">Other currencies</string>
+    <string name="per_month_short">%1$s/mo</string>
+    <string name="currency_totals">%1$s · %2$s/month · %3$s/year</string>
+
+    <!-- Settings -->
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_language">Language</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_dynamic_color">Use wallpaper colours (Android 12+)</string>
+    <string name="settings_reminders">Reminders</string>
+    <string name="settings_reminders_enabled">Renewal reminders</string>
+    <string name="settings_price_alerts">Price increase alerts</string>
+    <string name="settings_lead_days">Remind me</string>
+    <plurals name="days_before">
+        <item quantity="one">%d day before</item>
+        <item quantity="other">%d days before</item>
+    </plurals>
+    <string name="settings_notifications_blocked">Notifications are blocked. Tap to open system settings.</string>
+    <string name="settings_data">Data</string>
+    <string name="settings_default_currency">Default currency</string>
+    <string name="settings_export_csv">Export to CSV</string>
+    <string name="settings_export_csv_summary">Save all subscriptions as a spreadsheet file</string>
+    <plurals name="export_done">
+        <item quantity="one">Exported %d subscription</item>
+        <item quantity="other">Exported %d subscriptions</item>
+    </plurals>
+    <string name="export_failed">Export failed</string>
+    <string name="settings_about">About</string>
+    <string name="settings_plan">Plan</string>
+    <string name="plan_early_access">Early access: every feature is free</string>
+    <string name="plan_premium">Premium</string>
+    <string name="plan_free">Free</string>
+    <string name="settings_privacy">Your data stays on this device. Subsonar has no internet access, no ads and no tracking.</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <!-- Notifications -->
+    <string name="channel_reminders_name">Renewal reminders</string>
+    <string name="channel_reminders_desc">Alerts before a subscription renews</string>
+    <string name="notif_title_today">%1$s renews today</string>
+    <string name="notif_title_tomorrow">%1$s renews tomorrow</string>
+    <plurals name="notif_title_days">
+        <item quantity="one">%1$s renews in %2$d day</item>
+        <item quantity="other">%1$s renews in %2$d days</item>
+    </plurals>
+    <string name="notif_body">%1$s will be charged on %2$s.</string>
+
+    <!-- Bank import -->
+    <string name="import_title">Import from bank</string>
+    <string name="import_settings_item">Import bank statements</string>
+    <string name="import_settings_summary">Find subscriptions in CSV exports from your bank. Everything stays on this device.</string>
+    <string name="import_list_action">Find subscriptions in a bank file</string>
+    <string name="import_locked">Bank import is part of Premium.</string>
+    <string name="import_intro_title">Find subscriptions in your bank statements</string>
+    <string name="import_intro_body">Export your transactions from your online bank (CSV; CAMT.053 and MT940 also work) and pick the files here. You can choose several files, or a zip, at once. Files are read on this device only; they are never uploaded.</string>
+    <string name="import_intro_tip">Your bank only exports one month at a time? Import each month. Subsonar remembers the transactions and gets more accurate with every month.</string>
+    <string name="import_choose_files">Choose files</string>
+    <string name="import_add_more_files">Add more files</string>
+    <string name="import_review_existing">Find subscriptions in imported history</string>
+    <string name="import_reading">Reading files…</string>
+    <string name="import_history_title">Imported history</string>
+    <string name="import_history_none">Nothing imported yet</string>
+    <plurals name="import_history_summary">
+        <item quantity="one">%1$d transaction · %2$s</item>
+        <item quantity="other">%1$d transactions · %2$s</item>
+    </plurals>
+    <plurals name="import_months_covered">
+        <item quantity="one">%1$d month: %2$s</item>
+        <item quantity="other">%1$d months: %2$s</item>
+    </plurals>
+    <string name="import_coverage_range">%1$s – %2$s</string>
+    <string name="import_coverage_gaps">Months without transactions: %1$s. A file may be missing.</string>
+    <string name="import_delete_history">Delete imported history</string>
+    <string name="import_delete_history_summary">Removes imported transactions and import records. Subscriptions you added are kept.</string>
+    <string name="import_delete_confirm_title">Delete imported history?</string>
+    <string name="import_delete_confirm_body">All imported transactions are removed from this device. Subscriptions you added stay. You can import the files again later.</string>
+    <string name="import_history_deleted">Imported history deleted</string>
+    <string name="import_not_backed_up">Imported history is not included in Android backups.</string>
+
+    <string name="import_preview_title">Check the files</string>
+    <string name="import_preview_hint">Subsonar guessed how each file is laid out. Check the first rows, and adjust the columns if something looks wrong.</string>
+    <plurals name="import_file_rows">
+        <item quantity="one">%1$d transaction · %2$s</item>
+        <item quantity="other">%1$d transactions · %2$s</item>
+    </plurals>
+    <string name="import_file_range">%1$s – %2$s</string>
+    <string name="import_file_format">%1$s · %2$s · %3$s</string>
+    <string name="import_file_format_open">%1$s</string>
+    <string name="import_kind_csv">CSV</string>
+    <string name="import_kind_camt">CAMT.053 (XML)</string>
+    <string name="import_kind_mt940">MT940</string>
+    <string name="import_delim_comma">comma</string>
+    <string name="import_delim_semicolon">semicolon</string>
+    <string name="import_delim_tab">tab</string>
+    <string name="import_delim_pipe">pipe</string>
+    <string name="import_remembered">Layout recognised from an earlier import</string>
+    <string name="import_mapping_summary">Date: %1$s · Amount: %2$s · Text: %3$s</string>
+    <string name="import_mapping_split">%1$s / %2$s</string>
+    <string name="import_column_n">Column %1$d</string>
+    <string name="import_adjust">Adjust columns</string>
+    <string name="import_remove_file">Remove</string>
+    <string name="import_confirm_n_files">Import and find subscriptions</string>
+    <string name="import_nothing_to_import">No usable file selected yet.</string>
+    <string name="import_failed_file">Could not be imported</string>
+    <string name="import_sample_rows">First rows</string>
+    <plurals name="import_rows_skipped">
+        <item quantity="one">%1$d row was skipped (pending, balance or unreadable)</item>
+        <item quantity="other">%1$d rows were skipped (pending, balance or unreadable)</item>
+    </plurals>
+
+    <string name="import_fail_empty">The file is empty.</string>
+    <string name="import_fail_too_large">The file is too large (limit 25 MB).</string>
+    <string name="import_fail_not_text">This is not a text file. Export CSV, not Excel or PDF.</string>
+    <string name="import_fail_no_table">No table of transactions found in this file.</string>
+    <string name="import_fail_no_date">No date column found. Use “Adjust columns”.</string>
+    <string name="import_fail_no_amount">No amount column found. Use “Adjust columns”.</string>
+    <string name="import_fail_no_transactions">No transactions could be read with these columns.</string>
+    <string name="import_fail_unreadable">The file could not be read.</string>
+
+    <string name="import_warn_ambiguous_date">Day and month could be swapped; the order was chosen from the whole file.</string>
+    <string name="import_warn_sign">Money in/out was guessed. Check the amounts.</string>
+    <string name="import_warn_no_header">No header row found.</string>
+    <string name="import_warn_skipped">Some rows were skipped.</string>
+    <string name="import_warn_low_confidence">Low confidence. Please check the columns.</string>
+    <string name="import_warn_decimal">Decimal separator was guessed.</string>
+    <string name="import_warn_split">Money out / money in columns were guessed.</string>
+    <string name="import_warn_mixed_encoding">The text uses mixed encodings; some letters may look wrong.</string>
+    <string name="import_warn_truncated">The file was cut off.</string>
+
+    <string name="import_edit_title">Adjust columns</string>
+    <string name="import_edit_hint">Pick the columns that hold the date, the amount and the text. The result below updates as you change them.</string>
+    <string name="import_edit_date_column">Date column</string>
+    <string name="import_edit_date_format">Date format</string>
+    <string name="import_edit_amount_mode">Amount layout</string>
+    <string name="import_edit_amount_single">One amount column</string>
+    <string name="import_edit_amount_split">Separate money out / money in</string>
+    <string name="import_edit_amount_column">Amount column</string>
+    <string name="import_edit_out_column">Money out column</string>
+    <string name="import_edit_in_column">Money in column</string>
+    <string name="import_edit_decimal">Decimal separator</string>
+    <string name="import_edit_decimal_comma">Comma (1.234,56)</string>
+    <string name="import_edit_decimal_dot">Dot (1,234.56)</string>
+    <string name="import_edit_flip">Purchases are positive (flip the sign)</string>
+    <string name="import_edit_text_columns">Text columns (merchant, message)</string>
+    <plurals name="import_edit_result">
+        <item quantity="one">%1$d transaction found</item>
+        <item quantity="other">%1$d transactions found</item>
+    </plurals>
+    <string name="import_edit_result_none">No transactions with these settings</string>
+    <string name="import_edit_done">Use these columns</string>
+    <string name="import_edit_column_choice">%1$s (%2$s)</string>
+
+    <string name="import_review_title">Suggested subscriptions</string>
+    <string name="import_review_guidance_n">Based on %1$s. Import more months to improve the results.</string>
+    <string name="import_review_guidance_one">Only one month is available, so these are early guesses. Import more months, and yearly subscriptions will show up too.</string>
+    <string name="import_review_none">No recurring charges found yet. Import more months to improve the results.</string>
+    <plurals name="import_review_added_summary">
+        <item quantity="one">%1$d new transaction added, %2$d already known.</item>
+        <item quantity="other">%1$d new transactions added, %2$d already known.</item>
+    </plurals>
+    <string name="import_group_likely">Likely subscriptions</string>
+    <string name="import_group_bills">Bills and fixed costs</string>
+    <string name="import_group_bills_hint">Mortgage, rent, loans, insurance and similar. Add them if you want to track them too.</string>
+    <string name="import_group_low">Not sure</string>
+    <string name="import_group_low_hint">Weak signals. Only tick what you recognise.</string>
+    <string name="import_add_selected">Apply selected</string>
+    <string name="import_already_tracked">Already in your list</string>
+    <string name="import_unconfirmed">Unconfirmed</string>
+    <string name="import_confidence_high">High confidence</string>
+    <string name="import_confidence_medium">Medium confidence</string>
+    <string name="import_confidence_low">Low confidence</string>
+    <string name="import_candidate_line">%1$s · %2$s · next ≈ %3$s</string>
+    <string name="import_candidate_variable">about %1$s</string>
+    <string name="import_possibly_ended">may have ended</string>
+    <string name="import_done_title">Done</string>
+    <plurals name="import_done_body">
+        <item quantity="one">%1$d subscription added.</item>
+        <item quantity="other">%1$d subscriptions added.</item>
+    </plurals>
+    <string name="import_done_limit">The free plan limit was reached; some suggestions were not added.</string>
+    <string name="import_done_close">Close</string>
+    <string name="import_note_from_bank">Found in imported bank statements</string>
+
+    <string name="evidence_same_amount">Same amount (%1$s) every time</string>
+    <string name="evidence_variable_amount">The amount varies a little each time</string>
+    <string name="evidence_price_change">Price changed (%1$s)</string>
+    <string name="evidence_regular_interval">%1$s charges at regular intervals</string>
+    <string name="evidence_keyword">The text contains “%1$s”</string>
+    <string name="evidence_known_service">Looks like a known service (%1$s)</string>
+    <string name="evidence_mandate">Direct-debit mandate or creditor ID in the text</string>
+    <string name="evidence_bill_keyword">“%1$s” suggests a bill</string>
+    <string name="evidence_large_fixed">Large fixed amount (%1$s), more like a bill</string>
+    <string name="evidence_store_like">Looks like a shop or restaurant (%1$s)</string>
+    <string name="evidence_extra_charges">There are extra charges between the regular ones</string>
+    <string name="evidence_few_occurrences">Only %1$s charges so far</string>
+    <string name="evidence_ended">No recent charge. It may have ended</string>
+    <string name="evidence_only_one">Only one charge found</string>
+    <string name="evidence_irregular">The charges are not regular</string>
+    <string name="evidence_trial">A 0.00 trial charge came first</string>
+    <string name="evidence_ignored_currency">%1$s charges in another currency were ignored</string>
+
+    <!-- Price history and price increases -->
+    <string name="price_up_badge">Price up %1$s</string>
+    <string name="price_down_badge">Price down %1$s</string>
+    <string name="price_from_to">%1$s → %2$s</string>
+    <string name="price_per_year">%1$s per year</string>
+    <string name="field_price_effective">New price applies from</string>
+    <string name="price_change_recorded_hint">The change is saved in the price history.</string>
+    <string name="price_history_title">Price history</string>
+    <string name="price_history_empty">No price changes recorded yet. When you change the price, it is saved here.</string>
+    <string name="price_history_total">Total change: %1$s</string>
+    <string name="price_history_start">Starting price</string>
+    <string name="price_increases_title">Price increases</string>
+    <string name="price_increases_none">No price increases recorded in the last 12 months.</string>
+    <string name="price_increases_extra_yearly">Extra cost per year (last 12 months)</string>
+    <plurals name="price_increases_count">
+        <item quantity="one">%d subscription got more expensive</item>
+        <item quantity="other">%d subscriptions got more expensive</item>
+    </plurals>
+    <string name="price_increases_biggest">Biggest increases</string>
+    <string name="import_price_history_saved">The price change will be saved in the price history.</string>
+    <string name="import_price_update_offer">Update the price of “%1$s” from %2$s to %3$s and record the change</string>
+    <string name="import_price_update_hint">The bank statements show the new price from %1$s.</string>
+    <plurals name="import_done_updated">
+        <item quantity="one">Price of %1$d subscription updated.</item>
+        <item quantity="other">Prices of %1$d subscriptions updated.</item>
+    </plurals>
+    <string name="channel_price_name">Price changes</string>
+    <string name="channel_price_desc">Alerts when a subscription gets more expensive</string>
+    <string name="notif_price_title">Price increase: %1$s</string>
+    <string name="notif_price_body">%1$s → %2$s (%3$s). That is %4$s more per year.</string>
+
+    <!-- Visual identity (v3): summary card, empty state, privacy badge, avatar picker. No app name in these texts. -->
+    <string name="summary_per_month_approx">≈ %1$s per month</string>
+    <plurals name="summary_renew_week">
+        <item quantity="one">%d renews this week</item>
+        <item quantity="other">%d renew this week</item>
+    </plurals>
+    <string name="summary_nothing_this_week">Nothing renews this week</string>
+    <string name="summary_price_hikes">%1$s/yr from price hikes</string>
+    <string name="privacy_badge">Nothing leaves this phone · No internet access</string>
+    <string name="empty_import_title">Find your subscriptions from a bank export</string>
+    <string name="empty_import_body">Pick a CSV export from your online bank. It is read on this phone, and you choose which of the found subscriptions and bills to keep.</string>
+    <string name="empty_import_action">Import bank export</string>
+    <string name="empty_manual_action">Add manually</string>
+    <string name="appearance_title">Icon and colour</string>
+    <string name="appearance_automatic">Automatic, from the name and category</string>
+    <string name="appearance_custom">Your choice</string>
+    <string name="appearance_colour">Colour</string>
+    <string name="appearance_icons">Icons</string>
+    <string name="appearance_emoji">Emoji</string>
+    <string name="appearance_reset">Automatic</string>
+    <string name="appearance_option">Option %1$d of %2$d</string>
+</resources>

@@ -1,0 +1,254 @@
+{
+ "A01.csv": {
+  "dialect": {
+   "delim": ",",
+   "dec": ".",
+   "datef": "%Y-%m-%d"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A02.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "datef": "%d.%m.%Y"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A03.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "thou": ".",
+   "datef": "%d.%m.%y",
+   "enc": "cp1252"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A04.csv": {
+  "dialect": {
+   "delim": ",",
+   "dec": ".",
+   "thou": ",",
+   "datef": "%d/%m/%Y",
+   "quote_all": true
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A05.csv": {
+  "dialect": {
+   "delim": ",",
+   "dec": ".",
+   "datef": "%m/%d/%Y"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A06.csv": {
+  "dialect": {
+   "delim": "\t",
+   "dec": ",",
+   "datef": "%d-%m-%Y"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A07.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "thou": " ",
+   "datef": "%Y-%m-%d",
+   "bom": true
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A08.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "datef": "%Y%m%d",
+   "enc": "latin-1",
+   "sign": "dcflag"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A09.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "datef": "%d.%m.%Y",
+   "sign": "split",
+   "quote_all": true
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A10.csv": {
+  "dialect": {
+   "delim": ",",
+   "dec": ",",
+   "datef": "%d/%m/%Y",
+   "quote_all": true,
+   "sign": "signed"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A11.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "thou": "'",
+   "datef": "%d.%m.%Y"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A12.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ".",
+   "thou": "'",
+   "datef": "%d.%m.%Y"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A13.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "datef": "%d.%m.%Y",
+   "preamble": [
+    "Kontoutskrift",
+    "Konto: 1234.56.78901",
+    "Periode: 01.01.2025 - 30.06.2026",
+    ""
+   ]
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A14.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "datef": "%d.%m.%Y",
+   "trailing": true
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A15.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "datef": "%d.%m.%Y",
+   "header": false
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A16.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "datef": "%d.%m.%Y",
+   "plus": true,
+   "sym": " EUR"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A17.csv": {
+  "dialect": {
+   "delim": ",",
+   "dec": ".",
+   "datef": "%d-%b-%Y",
+   "sym": ""
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A18.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "datef": "%d.%m.%Y",
+   "enc": "utf-16",
+   "bom": false
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A19.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "datef": "%d.%m.%Y",
+   "crlf": false,
+   "enc": "cp1250"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A20.csv": {
+  "dialect": {
+   "delim": "|",
+   "dec": ",",
+   "datef": "%Y/%m/%d"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A21.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "datef": "%d.%m.%Y",
+   "sign": "split",
+   "balance": false,
+   "headers": [
+    "Buchungstag",
+    "Verwendungszweck",
+    "Soll",
+    "Haben"
+   ]
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A22.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "datef": "%d.%m.%Y",
+   "headers": [
+    "Dato",
+    "Forklaring",
+    "Beløp",
+    "Saldo"
+   ],
+   "enc": "latin-1"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A23.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "datef": "%d.%m.%Y",
+   "headers": [
+    "Päivämäärä",
+    "Selite",
+    "Määrä EUROA",
+    "Saldo"
+   ],
+   "plus": true,
+   "enc": "cp1252"
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ },
+ "A24.csv": {
+  "dialect": {
+   "delim": ";",
+   "dec": ",",
+   "datef": "%d/%m/%Y",
+   "headers": [
+    "Fecha",
+    "Concepto",
+    "Importe",
+    "Saldo"
+   ],
+   "enc": "utf-8",
+   "thou": "."
+  },
+  "note": "defaults if a key is absent: delim=; dec=, thou=\"\" datef=%d.%m.%Y enc=utf-8 bom=False sign=signed header=True quote_all=False trailing=False crlf=True; utf-16 writes a BOM automatically"
+ }
+}

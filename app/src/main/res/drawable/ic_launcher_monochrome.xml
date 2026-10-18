@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed (monochrome) app icon, Android 13+: same statement + highlighted row as a single-colour silhouette. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:strokeColor="#FFFFFFFF" android:strokeWidth="3.4" android:pathData="M40,29.7h28a3.3,3.3 0 0 1 3.3,3.3v44a3.3,3.3 0 0 1 -3.3,3.3h-28a3.3,3.3 0 0 1 -3.3,-3.3v-44a3.3,3.3 0 0 1 3.3,-3.3z" />
+    <path android:strokeColor="#FFFFFFFF" android:strokeWidth="3.2" android:strokeLineCap="round" android:pathData="M43,39h16 M43,47h12 M43,67h15 M43,74h9" />
+    <path android:fillColor="#FFFFFFFF" android:fillType="evenOdd" android:pathData="M31,51.5h46a5,5 0 0 1 5,5v0a5,5 0 0 1 -5,5h-46a5,5 0 0 1 -5,-5v0a5,5 0 0 1 5,-5z M37,56.5m-2.6,0a2.6,2.6 0 1,0 5.2,0a2.6,2.6 0 1,0 -5.2,0z M44,55h15a1.5,1.5 0 0 1 0,3h-15a1.5,1.5 0 0 1 0,-3z" />
+</vector>

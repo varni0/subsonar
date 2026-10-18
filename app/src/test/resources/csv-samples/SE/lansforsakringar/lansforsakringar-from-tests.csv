@@ -1,0 +1,8 @@
+"Kontonummer";"Kontonamn";"";"Saldo";"Tillgängligt belopp"
+"1234";"Buffert";"";"54 000,00";"54 000,00"
+
+"Bokföringsdatum";"Transaktionsdatum";"Transaktionstyp";"Meddelande";"Belopp"
+"2021-04-27";"2021-04-27";"Betalning";"Netflix";"-99,00"
+"2021-04-27";"2021-04-27";"Överföring";"1234.56.789.13";"-99,55"
+"2021-04-25";"2021-04-25";"Överföring";"1234.56.789.12";"-10 000,00"
+"2021-04-23";"2021-04-23";"Överföring";"VOLVO AB";"3000,00"

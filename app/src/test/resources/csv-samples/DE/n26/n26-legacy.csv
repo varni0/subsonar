@@ -1,0 +1,3 @@
+"Date","Payee","Account number","Transaction type","Payment reference","Category","Amount (EUR)","Amount (Foreign Currency)","Type Foreign Currency","Exchange Rate"
+"2019-10-10","Muster GmbH","DE99999999999999999999","Outgoing Transfer","Muster payment","Miscellaneous","-12.34","","",""
+"2019-10-25","Arbeitgeber AG","DE02100500000054540402","Income","Gehalt Oktober","Income","1850.00","","",""
