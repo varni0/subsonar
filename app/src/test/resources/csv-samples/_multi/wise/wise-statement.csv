@@ -1,0 +1,4 @@
+"TransferWise ID","Date","Amount","Currency","Description","Payment Reference","Running Balance","Exchange From","Exchange To","Exchange Rate","Payer Name","Payee Name","Payee Account Number","Merchant","Card Last Four Digits","Card Holder Full Name","Attachment","Note","Total fees","Exchange To Amount"
+"CARD-1029384","05-01-2026","-23.40","EUR","Card transaction of 23.40 EUR issued by Lidl Berlin","","1476.60","","","","","","","Lidl Berlin","4321","Jane Doe","","","0.00",""
+"TRANSFER-556677","12-01-2026","1200.00","EUR","Received money from ACME LTD with reference INV-2026-01","INV-2026-01","2676.60","","","","ACME LTD","","","","","","","Client payment","0.00",""
+"CARD-1029999","21-01-2026","-9.99","EUR","Card transaction of 9.99 EUR issued by Spotify","","2666.61","","","","","","","Spotify","4321","Jane Doe","","","0.00",""

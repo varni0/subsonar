@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+: cloud backup and device-to-device transfer of the subscriptions database and settings.
+     Imported bank history (history.db) is deliberately not listed, so it is left out of both (an <include> list is an allow-list). -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="database" path="subsonar.db" />
+        <include domain="file" path="datastore/" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="subsonar.db" />
+        <include domain="file" path="datastore/" />
+    </device-transfer>
+</data-extraction-rules>

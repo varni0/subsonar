@@ -1,0 +1,68 @@
+{
+ "note": "Expected recurring detection result for every file derived from this ledger (same transactions, different dialects).",
+ "expected_recurring": [
+  {
+   "merchant": "STREAMFLIX",
+   "period": "monthly",
+   "amount_eur": [
+    11.99,
+    13.99
+   ],
+   "event": "price hike on 2025-09 charge (index 8)"
+  },
+  {
+   "merchant": "MUSICBOX",
+   "period": "monthly",
+   "amount_eur": 9.99
+  },
+  {
+   "merchant": "GYM CITY",
+   "period": "monthly",
+   "amount_eur": 29.0
+  },
+  {
+   "merchant": "RENT HOUSING COOP",
+   "period": "monthly",
+   "amount_eur": 950.0,
+   "note": "recurring expense (bill)"
+  },
+  {
+   "merchant": "TELCO MOBILE",
+   "period": "monthly",
+   "amount_eur": "18.00-22.50 variable",
+   "note": "variable bill"
+  },
+  {
+   "merchant": "FOCUSAPP",
+   "period": "monthly",
+   "amount_eur": 7.99,
+   "note": "starts after a 0.00 trial row on 2025-02-20"
+  },
+  {
+   "merchant": "NEWSDAILY",
+   "period": "quarterly",
+   "amount_eur": 24.0
+  },
+  {
+   "merchant": "CLOUDSTORE",
+   "period": "yearly",
+   "amount_eur": 99.0,
+   "note": "also one FX one-off USD charge that is NOT recurring"
+  },
+  {
+   "merchant": "VPNGUARD",
+   "period": "yearly (only 1 occurrence: should be at most \"possible\")",
+   "amount_eur": 47.88
+  }
+ ],
+ "expected_not_recurring": [
+  "CAFE NERO (frequent small, varying amounts, includes a legit same-day duplicate)",
+  "CORNER BAKERY",
+  "FRESHMART",
+  "KIOSK STATION",
+  "PIZZA PORTO",
+  "REFUND STREAMFLIX.COM (income)",
+  "SALARY ACME CORP (monthly income, exclude from subscriptions)"
+ ],
+ "transactions": 258
+}

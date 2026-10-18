@@ -1,0 +1,1683 @@
+[
+ {
+  "path": "AT/ing-diba-at/ing-diba-at.csv",
+  "heldOut": true,
+  "gpl": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "single",
+  "dateCols": [
+   2
+  ],
+  "debitCol": 4,
+  "creditCol": 5,
+  "rows": 6
+ },
+ {
+  "path": "AT/livebank-bgld/livebank.csv",
+  "heldOut": false,
+  "gpl": true,
+  "delimiter": ";",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "single",
+  "dateCols": [
+   2,
+   3
+  ],
+  "amountCols": [
+   7
+  ],
+  "rows": 6
+ },
+ {
+  "path": "AT/oberbank/oberbank.csv",
+  "heldOut": false,
+  "gpl": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "single",
+  "dateCols": [
+   0,
+   1
+  ],
+  "amountCols": [
+   2
+  ],
+  "rows": 5
+ },
+ {
+  "path": "AT/raiffeisen/raiffeisen-elba-2013.csv",
+  "heldOut": false,
+  "gpl": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": false,
+  "encodingClass": "single",
+  "dateCols": [
+   0,
+   2
+  ],
+  "amountCols": [
+   3
+  ],
+  "rows": 7
+ },
+ {
+  "path": "AT/raiffeisen/raiffeisen-elba-headerless-2017.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": false,
+  "encodingClass": "utf8",
+  "dateCols": [
+   0,
+   2
+  ],
+  "amountCols": [
+   3
+  ],
+  "rows": 73
+ },
+ {
+  "path": "AT/raiffeisen/raiffeisen-elba-tab-2017.tsv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": "\t",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": false,
+  "encodingClass": "single",
+  "dateCols": [
+   0,
+   2
+  ],
+  "debitCol": 4,
+  "creditCol": 3,
+  "rows": 73
+ },
+ {
+  "path": "AT/easybank/easybank-creditcard.csv",
+  "heldOut": false,
+  "gpl": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": false,
+  "encodingClass": "ascii",
+  "dateCols": [
+   2,
+   3
+  ],
+  "amountCols": [
+   4
+  ],
+  "rows": 3
+ },
+ {
+  "path": "AT/easybank/easybank-giro.csv",
+  "heldOut": false,
+  "gpl": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": false,
+  "encodingClass": "single",
+  "dateCols": [
+   2,
+   3
+  ],
+  "amountCols": [
+   4
+  ],
+  "rows": 10
+ },
+ {
+  "path": "BE/kbc/kbc-checking-2018.csv",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd/MM/yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   5,
+   7
+  ],
+  "amountCols": [
+   8
+  ],
+  "rows": 1,
+  "altSplit": [
+   11,
+   10
+  ]
+ },
+ {
+  "path": "BE/kbc/kbc-creditcard-2020.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd/MM/yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   3,
+   4
+  ],
+  "amountCols": [
+   5,
+   10
+  ],
+  "rows": 3,
+  "altSplit": [
+   7,
+   6
+  ]
+ },
+ {
+  "path": "CH/ubs/ubs-ch-fr-trimmed.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   3
+  ],
+  "debitCol": 8,
+  "creditCol": 9,
+  "rows": 3
+ },
+ {
+  "path": "CZ/ceska-sporitelna/csas-page1-en-headers-2018.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": null,
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "single",
+  "maskedDates": true
+ },
+ {
+  "path": "CZ/ceska-sporitelna/csas-short-en-2018.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": null,
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "maskedDates": true
+ },
+ {
+  "path": "CZ/ceska-sporitelna/csas-strana1-cs-headers-2018.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": null,
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "single",
+  "maskedDates": true
+ },
+ {
+  "path": "CZ/raiffeisenbank/rb-cz-movements-2018.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "single",
+  "dateCols": [
+   0,
+   1
+  ],
+  "amountCols": [
+   13
+  ],
+  "rows": 1
+ },
+ {
+  "path": "DE/commerzbank/commerzbank-umsaetze-2018.csv",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   0,
+   1
+  ],
+  "amountCols": [
+   4
+  ],
+  "rows": 1
+ },
+ {
+  "path": "DE/dkb/dkb-new-2023-bankcsvrs.csv",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   0,
+   1
+  ],
+  "amountCols": [
+   7
+  ],
+  "rows": 2
+ },
+ {
+  "path": "DE/dkb/dkb-new-2023-format.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   0,
+   1
+  ],
+  "amountCols": [
+   8
+  ],
+  "rows": 3
+ },
+ {
+  "path": "DE/dkb/dkb-old-pre2023.csv",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "single",
+  "dateCols": [
+   0,
+   1
+  ],
+  "amountCols": [
+   8
+  ],
+  "rows": 2
+ },
+ {
+  "path": "DE/gls-bank/gls-bank.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "single",
+  "dateCols": [
+   1,
+   2
+  ],
+  "amountCols": [
+   19
+  ],
+  "rows": 1
+ },
+ {
+  "path": "DE/n26/n26-current.csv",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0,
+   1
+  ],
+  "amountCols": [
+   7
+  ],
+  "rows": 3
+ },
+ {
+  "path": "DE/n26/n26-new-bankcsvrs.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0,
+   1
+  ],
+  "amountCols": [
+   7
+  ],
+  "rows": 4
+ },
+ {
+  "path": "DE/n26/n26-legacy.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   6
+  ],
+  "rows": 2
+ },
+ {
+  "path": "DE/n26/n26-legacy-bankcsvrs.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   6
+  ],
+  "rows": 2
+ },
+ {
+  "path": "DE/n26/n26-legacy-de-headers-2017.csv",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   6
+  ],
+  "rows": 1
+ },
+ {
+  "path": "FR/n26/n26-fr-csv2ofx.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0,
+   1
+  ],
+  "amountCols": [
+   7
+  ],
+  "rows": 2
+ },
+ {
+  "path": "DE/ostseesparkasse-creditcard/ostseesparkasse-cc-2018.csv",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "single",
+  "dateCols": [
+   1,
+   2
+  ],
+  "amountCols": [
+   6,
+   3
+  ],
+  "rows": 1
+ },
+ {
+  "path": "DE/outbank-app/outbank-app-export.csv",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "MM/dd/yy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   2,
+   3
+  ],
+  "amountCols": [
+   4
+  ],
+  "rows": 4
+ },
+ {
+  "path": "DE/sparkasse/sparkasse-csv-camt-style-2018.csv",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   1,
+   2
+  ],
+  "amountCols": [
+   8
+  ],
+  "rows": 1
+ },
+ {
+  "path": "DE/sparkasse/sparkasse-csv-camt-v8-style.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "single",
+  "dateCols": [
+   1,
+   2
+  ],
+  "amountCols": [
+   14
+  ],
+  "rows": 3
+ },
+ {
+  "path": "DK/nordea/nordea-dk-2016.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd-MM-yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   0,
+   2
+  ],
+  "amountCols": [
+   3
+  ],
+  "rows": 10
+ },
+ {
+  "path": "GB/barclaycard/barclaycard-statement-2018.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "dd MMM yy",
+  "decimal": ".",
+  "hasHeader": false,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   6
+  ],
+  "rows": 1
+ },
+ {
+  "path": "GB/first-direct/first-direct-2018.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "dd/MM/yyyy",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   2
+  ],
+  "rows": 1
+ },
+ {
+  "path": "GB/john-lewis-card-or-m-and-s-pre2022/jl-partnership-card-pre2022.csv",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "dd-MMM-yyyy",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   2
+  ],
+  "rows": 10
+ },
+ {
+  "path": "GB/monzo/monzo-export-2018.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ],
+  "rows": 1
+ },
+ {
+  "path": "GB/starling/starling-2018.csv",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "dd/MM/yyyy",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   4
+  ],
+  "rows": 3
+ },
+ {
+  "path": "HU/erste-bank/erste-hu-2019.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy.MM.dd.",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   0,
+   10
+  ],
+  "amountCols": [
+   6
+  ],
+  "rows": 2
+ },
+ {
+  "path": "IE/bank-of-ireland/boi-transaction-export-2017.csv",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "dd/MM/yyyy",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   0
+  ],
+  "debitCol": 2,
+  "creditCol": 3,
+  "rows": 27
+ },
+ {
+  "path": "LT/swedbank-baltic/swedbank-lt-2020-lt-headers.csv",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   2
+  ],
+  "amountCols": [
+   5
+  ],
+  "dirCol": 7,
+  "rows": 8
+ },
+ {
+  "path": "LT/swedbank-baltic/swedbank-lt-statement-2014.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   2
+  ],
+  "amountCols": [
+   5
+  ],
+  "dirCol": 7,
+  "rows": 17
+ },
+ {
+  "path": "NL/asn-bank/asn-transactie-historie.csv",
+  "heldOut": true,
+  "gpl": true,
+  "delimiter": ",",
+  "datePattern": "dd-MM-yyyy",
+  "decimal": ".",
+  "hasHeader": false,
+  "encodingClass": "ascii"
+ },
+ {
+  "path": "NL/bunq/bunq-en-headers-2018.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   1
+  ],
+  "rows": 7
+ },
+ {
+  "path": "NL/bunq/bunq-nl-headers-2018.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   1
+  ],
+  "rows": 3
+ },
+ {
+  "path": "NL/ing/ing-nl-basic.csv",
+  "heldOut": false,
+  "gpl": true,
+  "delimiter": ",",
+  "datePattern": "yyyyMMdd",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   6
+  ],
+  "dirCol": 5,
+  "rows": 6
+ },
+ {
+  "path": "NL/ing/ing-nl-mutatiesoort.csv",
+  "heldOut": false,
+  "gpl": true,
+  "delimiter": ";",
+  "datePattern": "yyyyMMdd",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   6
+  ],
+  "dirCol": 5,
+  "rows": 6
+ },
+ {
+  "path": "NL/knab/knab-transactieoverzicht.csv",
+  "heldOut": false,
+  "gpl": true,
+  "delimiter": ";",
+  "datePattern": "dd-MM-yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   1,
+   7,
+   15
+  ],
+  "amountCols": [
+   4
+  ],
+  "dirCol": 3,
+  "rows": 28
+ },
+ {
+  "path": "NL/rabobank/rabobank-csv-a-2018.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "single",
+  "dateCols": [
+   4,
+   5
+  ],
+  "amountCols": [
+   6
+  ],
+  "rows": 3
+ },
+ {
+  "path": "PL/pekao/pekao-lista-operacji-2024.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   0,
+   1
+  ],
+  "amountCols": [
+   7
+  ],
+  "rows": 5
+ },
+ {
+  "path": "PL/pko-bp/pko-bp-sample.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   0,
+   1
+  ],
+  "amountCols": [
+   3
+  ],
+  "rows": 20
+ },
+ {
+  "path": "SE/lansforsakringar/lansforsakringar-from-tests.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   0,
+   1
+  ],
+  "amountCols": [
+   4
+  ],
+  "rows": 4
+ },
+ {
+  "path": "_generic/unknown-bank-preamble/generic-preamble-semicolon-moneyin-moneyout.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ";",
+  "datePattern": "dd/MM/yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0,
+   1
+  ],
+  "debitCol": 3,
+  "creditCol": 4,
+  "rows": 4
+ },
+ {
+  "path": "_multi/paypal/paypal-current-39col.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "dd/MM/yyyy",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   7,
+   9
+  ],
+  "rows": 4
+ },
+ {
+  "path": "_multi/paypal/paypal-old-description-column.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "MM/dd/yyyy",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   5,
+   7
+  ],
+  "rows": 2
+ },
+ {
+  "path": "_multi/paypal/paypal-with-subject-note.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "dd/MM/yyyy",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "amountCols": [
+   7,
+   9
+  ],
+  "rows": 4
+ },
+ {
+  "path": "_multi/revolut/revolut-2021.csv",
+  "heldOut": false,
+  "gpl": true,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   2,
+   3
+  ],
+  "amountCols": [
+   5
+  ],
+  "rows": 7
+ },
+ {
+  "path": "_multi/revolut/revolut-2022-pending.csv",
+  "heldOut": false,
+  "gpl": true,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   2,
+   3
+  ],
+  "amountCols": [
+   5
+  ],
+  "rows": 7
+ },
+ {
+  "path": "_multi/revolut/revolut-personal.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   2,
+   3
+  ],
+  "amountCols": [
+   5
+  ],
+  "rows": 3
+ },
+ {
+  "path": "_multi/wise/wise-statement.csv",
+  "heldOut": false,
+  "gpl": false,
+  "delimiter": ",",
+  "datePattern": "dd-MM-yyyy",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ],
+  "rows": 3
+ },
+ {
+  "path": "AT/raiffeisen/raiffeisen-rcm-kta-ei.dat",
+  "heldOut": true,
+  "gpl": false,
+  "delimiter": "|",
+  "hasHeader": false,
+  "encodingClass": "utf8"
+ },
+ {
+  "path": "synthetic/bank-like/DK/danske-bank-modelled-cp1252.csv",
+  "heldOut": true,
+  "gpl": false,
+  "synthetic": true,
+  "bankLike": true,
+  "rowsRange": [
+   257,
+   258
+  ]
+ },
+ {
+  "path": "synthetic/bank-like/DK/lan-og-spar-modelled-bom-headerless.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "bankLike": true,
+  "rowsRange": [
+   257,
+   258
+  ],
+  "delimiter": ";",
+  "datePattern": "dd-MM-yyyy",
+  "dateCols": [
+   7,
+   8,
+   9,
+   10
+  ],
+  "hasHeader": false,
+  "decimal": ",",
+  "amountCols": [
+   4
+  ],
+  "encodingClass": "utf8"
+ },
+ {
+  "path": "synthetic/bank-like/FI/nordea-legacy-tsv-modelled.txt",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "bankLike": true,
+  "rowsRange": [
+   257,
+   258
+  ],
+  "delimiter": "\t",
+  "datePattern": "dd.MM.yyyy",
+  "dateCols": [
+   0,
+   1,
+   2
+  ],
+  "hasHeader": true,
+  "decimal": ",",
+  "amountCols": [
+   3
+  ],
+  "encodingClass": "single"
+ },
+ {
+  "path": "synthetic/bank-like/FI/op-osuuspankki-modelled.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "bankLike": true,
+  "rowsRange": [
+   257,
+   258
+  ],
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "dateCols": [
+   0,
+   1
+  ],
+  "hasHeader": true,
+  "decimal": ",",
+  "amountCols": [
+   2
+  ],
+  "encodingClass": "single"
+ },
+ {
+  "path": "synthetic/bank-like/NO/dnb-modelled-latin1.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "bankLike": true,
+  "rowsRange": [
+   257,
+   258
+  ],
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "dateCols": [
+   0,
+   2
+  ],
+  "hasHeader": true,
+  "decimal": ",",
+  "debitCol": 3,
+  "creditCol": 4,
+  "encodingClass": "single"
+ },
+ {
+  "path": "synthetic/bank-like/NO/sparebank1-modelled.csv",
+  "heldOut": true,
+  "gpl": false,
+  "synthetic": true,
+  "bankLike": true,
+  "rowsRange": [
+   257,
+   258
+  ]
+ },
+ {
+  "path": "synthetic/bank-like/SE/handelsbanken-html-disguised-as-xls.xls",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "bankLike": true,
+  "rowsRange": [
+   257,
+   258
+  ],
+  "datePattern": "yyyy-MM-dd",
+  "dateCols": [
+   0,
+   1
+  ],
+  "hasHeader": false,
+  "decimal": ",",
+  "amountCols": [
+   3
+  ],
+  "encodingClass": "ascii"
+ },
+ {
+  "path": "synthetic/matrix/A01.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ",",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A02.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A03.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A04.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ",",
+  "datePattern": "dd/MM/yyyy",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A05.csv",
+  "heldOut": true,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ",",
+  "datePattern": "MM/dd/yyyy",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A06.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": "\t",
+  "datePattern": "dd-MM-yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A07.csv",
+  "heldOut": true,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "yyyy-MM-dd",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "utf8",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A08.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "yyyyMMdd",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ],
+  "dirCol": 3
+ },
+ {
+  "path": "synthetic/matrix/A09.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 257,
+  "descCols": [
+   1
+  ],
+  "debitCol": 2,
+  "creditCol": 3
+ },
+ {
+  "path": "synthetic/matrix/A10.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ",",
+  "datePattern": "dd/MM/yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A11.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A12.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A13.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A14.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A15.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": false,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A16.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A17.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ",",
+  "datePattern": "dd-MMM-yyyy",
+  "decimal": ".",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A18.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "utf16",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A19.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A20.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": "|",
+  "datePattern": "yyyy/MM/dd",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A21.csv",
+  "heldOut": true,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 257,
+  "descCols": [
+   1
+  ],
+  "debitCol": 2,
+  "creditCol": 3
+ },
+ {
+  "path": "synthetic/matrix/A22.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "single",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A23.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd.MM.yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "single",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ },
+ {
+  "path": "synthetic/matrix/A24.csv",
+  "heldOut": false,
+  "gpl": false,
+  "synthetic": true,
+  "matrix": true,
+  "delimiter": ";",
+  "datePattern": "dd/MM/yyyy",
+  "decimal": ",",
+  "hasHeader": true,
+  "encodingClass": "ascii",
+  "dateCols": [
+   0
+  ],
+  "rows": 258,
+  "descCols": [
+   1
+  ],
+  "amountCols": [
+   2
+  ]
+ }
+]

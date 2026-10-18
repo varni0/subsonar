@@ -1,0 +1,4 @@
+"Booking Date","Value Date","Partner Name","Partner Iban","Type","Payment Reference","Account Name","Amount (EUR)","Original Amount","Original Currency","Exchange Rate"
+"2026-04-02","2026-04-02","REWE Markt GmbH","DE02120300000000202051","Presentment","REWE SAGT DANKE","Main Account","-37.82","","",""
+"2026-04-15","2026-04-15","Arbeitgeber AG","DE02100500000054540402","Credit Transfer","Gehalt April 2026","Main Account","2750.00","","",""
+"2026-04-28","2026-04-28","Vermieter Schmidt","DE02701500000000594937","Debit Transfer","Miete Mai 2026","Main Account","-980.00","","",""

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 and lower: back up the subscriptions database and settings via Google auto-backup.
+     Imported bank history (history.db) is deliberately NOT listed here, so it is not backed up: it is far more sensitive than the subscription list. -->
+<full-backup-content>
+    <include domain="database" path="subsonar.db" />
+    <include domain="file" path="datastore/" />
+</full-backup-content>

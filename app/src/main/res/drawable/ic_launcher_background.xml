@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App icon background: deep fjord blue with a low, darker mountain ridge (name-independent brand mark). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:fillColor="#1E5568" android:pathData="M0,0h108v108h-108z" />
+    <path android:fillColor="#194A5B" android:pathData="M0,74 L18,63 L30,69 L50,55 L66,66 L80,59 L108,73 L108,108 L0,108 Z" />
+    <path android:fillColor="#143E4D" android:pathData="M0,86 L24,78 L44,84 L70,74 L92,81 L108,77 L108,108 L0,108 Z" />
+</vector>
